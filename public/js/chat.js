@@ -65,7 +65,7 @@ $(() => {
         })
     }
     createStamps = () => {
-        const stamps = [...Array(6).keys()].map(i => `stamp${++i}.png`);
+        const stamps = [...Array(8).keys()].map(i => `stamp${++i}.png`);
         stamps.forEach((stamp, index) => {
             index++;
             let imageId = 'stamp_' + index;
